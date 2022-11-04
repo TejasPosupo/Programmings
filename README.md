@@ -1,2 +1,1 @@
-# Programmings
-All My Codes in one place.
+# Getting started with MySQL
