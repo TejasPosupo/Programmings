@@ -1,14 +1,8 @@
-
-# Function to add two numbers
-def add_numbers(num1, num2):
+def add_two_numbers(num1, num2):
     return num1 + num2
 
-# Main program
 if __name__ == "__main__":
-    # Input two numbers
-    num1 = int(input("Enter the first number: "))
-    num2 = int(input("Enter the second number: "))
-
-    # Call the add_numbers function and print the result
-    result = add_numbers(num1, num2)
-    print("The sum of", num1, "and", num2, "is", result)
+    num1 = int(input("Enter the First Number "))
+    num2 = int(input("Enter the Second Number "))
+    result = add_two_numbers(num1, num2)
+print("The sum of " , num1, " and ", num2, "is", result)

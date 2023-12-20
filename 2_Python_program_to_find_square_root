@@ -1,0 +1,13 @@
+'''solution -1: Exponential operator
+
+# num  = 49 
+num = int(input("Enter the number here "))
+sr = num**(0.5)
+print("square root of a given is ", num, " is " ,sr)'''
+
+#solution-2: math module sqrt()
+
+import math
+num = int(input("Enter the number here "))
+sr = math.sqrt(num)
+print("square root of a given is ", num, " is " ,sr)
